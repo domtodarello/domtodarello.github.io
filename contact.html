@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="C:\Users\domto\OneDrive\Desktop\Projects\Personal Portfolio\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <title>Dominic Todarello | Web Developer</title>
+</head>
+<body>
+    <a href="index.html"><img src="isotope_logo.png" id="personal_logo"></a>
+    <header>
+        <a href="index.html" id="home_logo"><img src="homelogo.png" id="home_logo" onmouseover="this.src='house_logo_blue.png'"; onmouseout="this.src='homelogo.png'"></a>
+        <div class="topnav" id="mytopnav">
+            <a href=#>About</a>
+            <a href=#>Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </div>
+    </header>
+    <div id="contact_form">
+        <h3 id="contact_tagline" class="neon_text">Get in Touch</h3>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="phone">Phone:</label><br>
+            <input type="text" id="phone" name="phone"><br>
+            <label for="info">Your request:</label><br>
+            <textarea id="info" name="info" rows="10" cols="60"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
